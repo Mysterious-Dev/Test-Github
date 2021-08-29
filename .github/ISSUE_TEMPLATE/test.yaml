@@ -4,7 +4,6 @@ title: "[BUG] <title>"
 labels: [bug]
 body:
 - type: dropdown
-  id: download
   attributes:
     label: Environment
     options:
