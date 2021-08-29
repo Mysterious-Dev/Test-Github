@@ -1,7 +1,7 @@
 name: Bug report
 description: Create a report to help us improve knossos
-title: ""
-labels: [bug]
+title: "[BUG] <title>"
+labels: [Bug, Needs Triage]
 body:
 - type: textarea
   attributes:
