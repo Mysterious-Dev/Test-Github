@@ -3,6 +3,15 @@ description: Create a report to help us improve knossos
 title: "[BUG] <title>"
 labels: [bug]
 body:
+- type: dropdown
+  id: download
+  attributes:
+    label: Environment
+    options:
+      - Staging
+      - Website
+  validations:
+    required: true
 - type: textarea
   attributes:
     label: Describe the bug
