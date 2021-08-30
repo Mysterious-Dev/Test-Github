@@ -1,6 +1,5 @@
 name: Bug report
 description: Create a report to help us improve knossos
-title: ""
 labels: [bug]
 body:
 - type: dropdown
