@@ -6,10 +6,9 @@ body:
     attributes:
       label: Environment
       options:
-        - Staging
-        - Website
+        - 1.17
     validations:
-      required: false
+      required: true
   - type: textarea
     attributes:
       label: Describe the bug
