@@ -1,4 +1,4 @@
-name: Proposal
+name: Proposition
 description: Proposer une fonctionnalité ou un sujet pour la documentation 
 labels: [proposal]
 body:
@@ -11,30 +11,7 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Describe the bug
+      label: Destription de la fonctionnalité
       description: A clear and concise description of what the bug is.
     validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: Steps To Reproduce
-      description: Steps to reproduce the behavior.
-      placeholder: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: Expected behavior
-      description: A clear and concise description of what you expected to happen.
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: Additional context
-      description: Add any other context about the problem here.
-    validations:
-      required: false
+      required: true
