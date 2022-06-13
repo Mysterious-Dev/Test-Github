@@ -2,12 +2,9 @@ name: Bug report Mc Dev
 description: Create a bug report
 labels: [status: unverified, type: bug]
 body:
-  - type: dropdown
+  - type: input
     attributes:
-      label: Environment
-      options:
-        - Staging
-        - Website
+      label: Minecraft Development for IntelliJ plugin version
     validations:
       required: false
   - type: textarea
