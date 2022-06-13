@@ -6,12 +6,12 @@ body:
     attributes:
       label: Minecraft Development for IntelliJ plugin version
     validations:
-      required: false
+      required: true
   - type: input
     attributes:
       label: IntelliJ version
     validations:
-      required: false
+      required: true
   - type: dropdown
     attributes:
       label: Operating System
@@ -20,4 +20,4 @@ body:
         - MacOS
         - Linux
     validations:
-      required: false
+      required: true
