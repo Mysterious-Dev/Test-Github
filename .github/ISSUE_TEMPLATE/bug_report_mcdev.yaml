@@ -28,17 +28,18 @@ body:
   - type: checkboxes
     attributes:
       label: Target platform
+      multiple: true
       options:
-        - label: Bukkit
-        - label: Spigot
-        - label: Paper
-        - label: Sponge
-        - label: Forge
-        - label: Fabric
-        - label: Architectury
-        - label: LiteLoader
-        - label: Velocity
-        - label: BungeeCord
-        - label: Waterfall
+        - Bukkit
+        - Spigot
+        - Paper
+        - Sponge
+        - Forge
+        - Fabric
+        - Architectury
+        - LiteLoader
+        - Velocity
+        - BungeeCord
+        - Waterfall
     validations:
       required: false
