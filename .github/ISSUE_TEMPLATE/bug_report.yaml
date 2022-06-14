@@ -45,6 +45,6 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: Reproduction steps
+      label: Description
     validations:
       required: true
