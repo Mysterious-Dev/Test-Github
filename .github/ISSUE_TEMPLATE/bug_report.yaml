@@ -43,3 +43,9 @@ body:
         - Waterfall
     validations:
       required: false
+  - type: textarea
+    attributes:
+      label: Reproduction steps
+      render: bash
+    validations:
+      required: true
