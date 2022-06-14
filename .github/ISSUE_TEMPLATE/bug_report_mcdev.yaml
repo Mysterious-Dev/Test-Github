@@ -29,16 +29,16 @@ body:
     attributes:
       label: Target platform
       options:
-        - Bukkit
-        - Spigot
-        - Paper
-        - Sponge
-        - Forge
-        - Fabric
-        - Architectury
-        - LiteLoader
-        - Velocity
-        - BungeeCord
-        - Waterfall
+        - label: Bukkit
+        - label: Spigot
+        - label: Paper
+        - label: Sponge
+        - label: Forge
+        - label: Fabric
+        - label: Architectury
+        - label: LiteLoader
+        - label: Velocity
+        - label: BungeeCord
+        - label: Waterfall
     validations:
       required: false
