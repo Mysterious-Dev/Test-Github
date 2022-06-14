@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        DO NOT REQUEST SUPPORT FOR OLDER VERSIONS OF MINECRAFT.
   - type: input
     attributes:
       label: Minecraft Development for IntelliJ plugin version
@@ -25,3 +25,20 @@ body:
         - Linux
     validations:
       required: true
+  - type: dropdown
+    attributes:
+      label: Target platform
+      options:
+        - Bukkit
+        - Spigot
+        - Paper
+        - Sponge
+        - Forge
+        - Fabric
+        - Architectury
+        - LiteLoader
+        - Velocity
+        - BungeeCord
+        - Waterfall
+    validations:
+      required: false
