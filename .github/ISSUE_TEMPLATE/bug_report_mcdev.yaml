@@ -25,7 +25,7 @@ body:
         - Linux
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     attributes:
       label: Target platform
       multiple: true
