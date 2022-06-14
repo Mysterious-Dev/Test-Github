@@ -1,4 +1,4 @@
-name: Bug report Mc Dev
+name: Bug report
 description: Create a bug report
 labels: [status: unverified, type: bug]
 body:
