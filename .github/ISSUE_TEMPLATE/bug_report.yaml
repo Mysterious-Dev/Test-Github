@@ -24,9 +24,10 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: target-platform
+    id: intellij-version
     attributes:
       label: Target platform
+      multiple: true
       options:
         - Bukkit
         - Spigot
