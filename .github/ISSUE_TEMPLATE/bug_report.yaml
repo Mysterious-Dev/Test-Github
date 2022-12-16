@@ -24,7 +24,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: intellij-version
+    id: target-platform
     attributes:
       label: Target platform
       options:
